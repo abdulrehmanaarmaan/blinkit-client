@@ -11,7 +11,7 @@ const Footer = () => {
         { name: 'Bakery & Biscuits' },
         { name: 'Chicken & Meat' },
         { name: 'Baby Care' },
-    ];
+    ]
 
     const socials = [
         { n: 'FB', c: 'hover:bg-blue-600' },
