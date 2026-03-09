@@ -6,7 +6,7 @@ import useAxios from '../hooks/useAxios';
 
 const Home = () => {
 
-    const instance = useAxios();
+    const instance = useAxios()
 
     const [search, setSearch] = useState('')
     const [category, setCategory] = useState('All')
