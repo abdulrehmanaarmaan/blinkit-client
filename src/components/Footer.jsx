@@ -18,7 +18,7 @@ const Footer = () => {
         { n: 'TW', c: 'hover:bg-sky-500' },
         { n: 'IG', c: 'hover:bg-pink-600' },
         { n: 'LI', c: 'hover:bg-blue-700' }
-    ];
+    ]
 
     return (
         <footer className="w-full bg-white border-t border-gray-100 pt-16 pb-8 transition-all duration-300" aria-label="Site Footer">
