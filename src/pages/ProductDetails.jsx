@@ -34,7 +34,7 @@ const ProductDetails = () => {
     useEffect(() => {
         if (isLoading || !product) return;
 
-        const targetQuantity = cartProduct ? cartProduct.quantity : 1;
+        const targetQuantity = cartProduct ? cartProduct.quantity : 1
 
         setQuantity(prevQuantity => {
             if (prevQuantity !== targetQuantity) {
